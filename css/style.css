@@ -235,4 +235,52 @@ footer .footerContein .footer .footerRedes img {
   height: auto;
 }
 
+.construccionConteiner {
+  width: 100%;
+  height: auto;
+}
+.construccionConteiner .primeraConstruccion {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagenes/B2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactoConteiner {
+  width: 100%;
+  height: auto;
+}
+.contactoConteiner .contactoConstruccion {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagenes/B2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nosotrosConteiner {
+  width: 100%;
+  height: auto;
+}
+.nosotrosConteiner .nosotrosConstruccion {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagenes/B2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.obrasConteiner {
+  width: 100%;
+  height: auto;
+}
+.obrasConteiner .obrasConstruccion {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imagenes/B2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=style.css.map */
