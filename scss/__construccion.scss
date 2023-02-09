@@ -10,8 +10,38 @@
         background-image: url(../imagenes/B2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+
+
        
+    }
+
+    .segundaConstruccion{
+        width: 80%;
+        height: 50vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        .textoConstruccion{
+            display: flex;
+            
+            flex-direction: column;
+            margin: auto;
+            
+        }
+        .imgConstruccion{
+            width: 100%;
+            height: auto;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
     }
     
         
