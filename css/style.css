@@ -54,7 +54,7 @@
   justify-content: start;
 }
 .paginaConteiner .segundaSeccionIndex .textoSegundaSec .textoSeg {
-  font-size: 1rem;
+  font-size: 0.8rem;
   text-decoration: none;
 }
 .paginaConteiner .segundaSeccionIndex .imgSegundaSec {
@@ -98,6 +98,9 @@
   padding: 1.5rem;
   font-size: 1rem;
 }
+.paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgNosotrosIndex a h2:hover {
+  font-size: 1.3rem;
+}
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgConstruccionIndex {
   width: 24vw;
   height: auto;
@@ -116,6 +119,9 @@
   margin: auto;
   padding: 1.5rem;
   font-size: 1rem;
+}
+.paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgConstruccionIndex a h2:hover {
+  font-size: 1.3rem;
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgObrasIndex {
   width: 24vw;
@@ -136,6 +142,9 @@
   padding: 1.5rem;
   font-size: 1rem;
 }
+.paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgObrasIndex a h2:hover {
+  font-size: 1.3rem;
+}
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgContactoIndex {
   width: 24vw;
   height: auto;
@@ -154,6 +163,9 @@
   margin: auto;
   padding: 1.5rem;
   font-size: 1rem;
+}
+.paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgContactoIndex a h2:hover {
+  font-size: 1.3rem;
 }
 .paginaConteiner .cuartaSeccionIndex {
   width: 80%;
@@ -176,10 +188,23 @@
   padding: 10%;
 }
 
+@font-face {
+  font-family: "aileron";
+  src: url("../fuente/aileron_0102");
+}
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  font-family: "aileron", sans-serif;
+}
+
+.hoverSub:hover {
+  text-decoration: underline;
+}
+
+.hoverGrande:hover {
+  font-size: 3rem;
 }
 
 footer {
@@ -187,10 +212,7 @@ footer {
 }
 footer .footerContein {
   height: 50vh;
-  background-image: url(/imagenes/TEXTURAS_Mesa\ de\ trabajo\ 1.png);
-  background-color: rgba(0, 0, 0, 0.61);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -214,11 +236,14 @@ footer .footerContein .footer .footerLInks {
   text-decoration: none;
   margin: 1rem;
   padding: 0.8rem;
-  border-left: solid #006478 0.6rem;
+  border-left: solid #3A5D8B 0.6rem;
 }
 footer .footerContein .footer .footerLInks a {
   color: white;
   text-decoration: none;
+}
+footer .footerContein .footer .footerLInks a:hover {
+  text-decoration: underline;
 }
 footer .footerContein .footer .footerRedes {
   display: flex;
@@ -227,50 +252,143 @@ footer .footerContein .footer .footerRedes {
   margin-left: 1rem;
 }
 footer .footerContein .footer .footerRedes h3 {
-  margin-top: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
+}
+footer .footerContein .footer .footerRedes h3 img {
+  margin: 0;
+  width: 11%;
+  height: auto;
 }
 footer .footerContein .footer .footerRedes img {
-  width: 10%;
+  width: 8%;
   height: auto;
 }
 
 .construccionConteiner {
   width: 100%;
   height: auto;
+  /*-----------------primera seccion contruccion-------------*/
+  /*-----------------tercera seccion contruccion-------------*/
+  /*-------------------cuarta seccion ---------------*/
+  /*---------------------------QUINTA SECCION-----------------------------*/
 }
 .construccionConteiner .primeraConstruccion {
-  width: 100%;
-  height: 100vh;
-  background-image: url(../imagenes/B2.jpg);
+  background-image: url(../imagenes/contriccion1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100vh;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  color: white;
+  /*-----------------segunda seccion contruccion-------------*/
 }
-.construccionConteiner .segundaConstruccion {
-  width: 80%;
-  height: 50vh;
+.construccionConteiner .primeraConstruccion h2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 5em;
+  margin-top: 12em;
+  justify-content: center;
+  font-size: 2rem;
+}
+.construccionConteiner .contruccion1 {
+  width: 100%;
+  height: 45vh;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin: auto;
+  background-image: url(../imagenes/terNos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.construccionConteiner .segundaConstruccion .textoConstruccion {
+.construccionConteiner .contruccion1 .textoontruc1 {
+  width: 35%;
   display: flex;
   flex-direction: column;
   margin: auto;
+  justify-content: center;
+  align-items: center;
 }
-.construccionConteiner .segundaConstruccion .imgConstruccion {
-  width: 100%;
-  height: auto;
+.construccionConteiner .contruccion1 .textoontruc1 h1 {
+  margin-bottom: 2rem;
 }
-.construccionConteiner .segundaConstruccion .imgConstruccion img {
+.construccionConteiner .contruccion1 .textoontruc1 h3 {
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-align: center;
+}
+.construccionConteiner .contruccion2 {
   width: 100%;
-  height: auto;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../imagenes/Contruccion2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.construccionConteiner .contruccion2 .textoontruc2 {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.construccionConteiner .contruccion2 .textoontruc2 h1 {
+  margin-bottom: 2rem;
+  color: white;
+}
+.construccionConteiner .contruccion2 .textoontruc2 h3 {
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-align: center;
+}
+.construccionConteiner .construccion3 {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../imagenes/terNos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.construccionConteiner .construccion3 .textoConstruccion3 {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.construccionConteiner .construccion3 .textoConstruccion3 h1 {
+  margin-bottom: 2rem;
+}
+.construccionConteiner .construccion3 .textoConstruccion3 h3 {
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-align: center;
+}
+.construccionConteiner .construccion4 {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../imagenes/Contruccion2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.construccionConteiner .construccion4 .textoConstruccion5 {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+.construccionConteiner .construccion4 .textoConstruccion5 h2 {
+  color: white;
+  text-align: center;
 }
 
 .contactoConteiner {
@@ -290,22 +408,28 @@ footer .footerContein .footer .footerRedes img {
   height: auto;
 }
 .nosotrosConteiner .nosotrosConstruccion {
-  width: 100%;
-  height: 100vh;
   background-image: url(../imagenes/B2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 100vh;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: center;
-  color: white;
-  justify-content: center;
 }
-.nosotrosConteiner .nosotrosConstruccion h1 {
-  font-size: 3rem;
+.nosotrosConteiner .nosotrosConstruccion h2 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 5em;
+  margin-top: 12em;
+  justify-content: center;
+  font-size: 2rem;
 }
 .nosotrosConteiner .primeraSeccionNosotros {
   width: 80%;
-  height: 90vh;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -314,40 +438,124 @@ footer .footerContein .footer .footerRedes img {
 }
 .nosotrosConteiner .primeraSeccionNosotros .cardNosotros {
   width: 100%;
+  margin-top: 5em;
+  margin-bottom: 5em;
 }
-.nosotrosConteiner .primeraSeccionNosotros .cardNosotros .cardTexto {
-  width: 80%;
-  background-image: url(../imagenes/IndexNosotros.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: rgba(250, 235, 215, 0);
-}
-.nosotrosConteiner .primeraSeccionNosotros .cardNosotros .cardTexto:hover {
-  transition-duration: 1.5s;
-  color: rgb(0, 0, 0);
-  opacity: 0.5;
-  overflow: auto;
-  font-size: 1.1rem;
+.nosotrosConteiner .primeraSeccionNosotros .cardNosotros p {
+  font-size: 0.8rem;
 }
 .nosotrosConteiner .segundaNosotros {
   width: 100%;
   height: 60vh;
-  background-image: url(../imagenes/TEXTURAS_Mesa\ de\ trabajo\ 1.png);
-  background-color: rgba(0, 0, 0, 0.61);
+  display: flex;
+  flex-direction: row;
+  background-image: url(../imagenes/nosotrosSeg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
-.nosotrosConteiner .segundaNosotros .textoNosotros {
+.nosotrosConteiner .segundaNosotros .imgNosSegconteiner {
+  display: flex;
+  flex-direction: row;
   margin: auto;
+  width: 50%;
+}
+.nosotrosConteiner .segundaNosotros .imgNosSegconteiner .imgNosSeg {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: end;
+}
+.nosotrosConteiner .segundaNosotros .imgNosSegconteiner .imgNosSeg img {
   width: 70%;
-  height: 80%;
+  height: auto;
+}
+.nosotrosConteiner .segundaNosotros .imgNosSegconteiner .textoNosotros {
+  width: 80%;
   color: white;
   display: flex;
+  margin: auto;
   justify-content: space-around;
-  flex-direction: column;
 }
-.nosotrosConteiner .segundaNosotros .textoNosotros h2 {
-  font-size: 1rem;
+.nosotrosConteiner .segundaNosotros .imgNosSegconteiner .textoNosotros h3 {
+  font-size: 0.8rem;
+}
+.nosotrosConteiner .terceraNosotros {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../imagenes/terNos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nosotrosConteiner .terceraNosotros .textoTerNos {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.nosotrosConteiner .terceraNosotros .textoTerNos h1 {
+  margin-bottom: 2rem;
+}
+.nosotrosConteiner .terceraNosotros .textoTerNos h3 {
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-align: center;
+}
+.nosotrosConteiner .cuartaNosotros {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../imagenes/cuarNos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nosotrosConteiner .cuartaNosotros .textoCuarNos {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.nosotrosConteiner .cuartaNosotros .textoCuarNos h1 {
+  margin-bottom: 2rem;
+  color: white;
+}
+.nosotrosConteiner .cuartaNosotros .textoCuarNos h3 {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+.nosotrosConteiner .quintaNosotros {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(../imagenes/terNos.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.nosotrosConteiner .quintaNosotros .textoQuinNos {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.nosotrosConteiner .quintaNosotros .textoQuinNos h1 {
+  margin-bottom: 2rem;
+}
+.nosotrosConteiner .quintaNosotros .textoQuinNos h3 {
+  font-size: 0.8rem;
+  text-decoration: none;
+  text-align: center;
 }
 
 .obrasConteiner {

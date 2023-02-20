@@ -66,8 +66,10 @@
 
                 }
                 .textoSeg{
-                    font-size: 1rem;
+                    font-size: 0.8rem;
                     text-decoration: none;
+                    
+                    
                 }
             }
 
@@ -121,6 +123,12 @@
                         margin: auto;
                         padding: 1.5rem;
                         font-size: 1rem;
+
+                       
+                            &:hover {
+                                font-size: 1.3rem;
+                            }
+                        
                         
                     }
                 }
@@ -143,6 +151,10 @@
                         margin: auto;
                         padding: 1.5rem;
                         font-size: 1rem;
+                        &:hover {
+                            font-size: 1.3rem;
+                        }
+                    
                         
                     }
                 }
@@ -162,7 +174,12 @@
                         color: white;
                         margin: auto;
                         padding: 1.5rem;
-                        font-size: 1rem;                        
+                        font-size: 1rem;  
+                        
+                        &:hover {
+                            font-size: 1.3rem;
+                        }
+                    
                     }
                 }
             }
@@ -182,6 +199,10 @@
                         margin: auto;
                         padding: 1.5rem;
                         font-size: 1rem;
+                        &:hover {
+                            font-size: 1.3rem;
+                        }
+                    
                         
                     }
                 }

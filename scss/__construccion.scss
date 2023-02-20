@@ -3,46 +3,146 @@
     width: 100%;
     height: auto;
 
+    /*-----------------primera seccion contruccion-------------*/
 
     .primeraConstruccion{
-        width: 100%;
-        height: 100vh;
-        background-image: url(../imagenes/B2.jpg);
+        background-image: url(../imagenes/contriccion1.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        width: 100%;
+        height: 100vh;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        justify-content: flex-end;
         align-items: center;
-        color: white;
+        h2{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin: 5em;
+            margin-top: 12em;
+            justify-content: center;
+            font-size: 2rem;
+        }
 
-
+/*-----------------segunda seccion contruccion-------------*/
        
     }
 
-    .segundaConstruccion{
-        width: 80%;
-        height: 50vh;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        .textoConstruccion{
-            display: flex;
-            
-            flex-direction: column;
-            margin: auto;
-            
-        }
-        .imgConstruccion{
+
+    
+        .contruccion1{
             width: 100%;
-            height: auto;
-            img{
-                width: 100%;
-                height: auto;
+            height: 45vh;
+            display: flex;
+            flex-direction: row;
+            background-image: url(../imagenes/terNos.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            .textoontruc1{
+                width: 35%;
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+    
+                h1{
+                    margin-bottom: 2rem;
+                }
+                h3{
+                    font-size: 0.8rem;
+                    text-decoration: none;
+                    text-align: center;
+                }
             }
         }
-    }
+        /*-----------------tercera seccion contruccion-------------*/
     
+        .contruccion2{
+            width: 100%;
+            height: 45vh;
+            display: flex;
+            flex-direction: row;
+            background-image: url(../imagenes/Contruccion2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            .textoontruc2{
+                width: 35%;
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+    
+                h1{
+                    margin-bottom: 2rem;
+                    color: white;
+                }
+                h3{
+                    color: white;
+                    font-size: 0.8rem;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+        /*-------------------cuarta seccion ---------------*/
         
+        .construccion3{
+            width: 100%;
+            height: 45vh;
+            display: flex;
+            flex-direction: row;
+            background-image: url(../imagenes/terNos.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+    
+            .textoConstruccion3{
+                width: 35%;
+                display: flex;
+                flex-direction: column;
+                margin: auto;
+                justify-content: center;
+                align-items: center;
+    
+                h1{
+                    margin-bottom: 2rem;
+                }
+                h3{
+                    font-size: 0.8rem;
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+
+
+/*---------------------------QUINTA SECCION-----------------------------*/
+
+    .construccion4{
+            width: 100%;
+            height: 45vh;
+            display: flex;
+            flex-direction: row;
+            background-image: url(../imagenes/Contruccion2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            .textoConstruccion5{
+                width: 75%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: auto;
+
+                h2{
+                    color: white;
+                    text-align: center;
+                }
+            }
+
+    }
 }

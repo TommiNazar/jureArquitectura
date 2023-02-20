@@ -4,23 +4,29 @@
 
 
     .nosotrosConstruccion{
-        width: 100%;
-        height: 100vh;
         background-image: url(../imagenes/B2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        width: 100%;
+        height: 100vh;
         display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
         align-items: center;
-        color: white;
-        justify-content: center;
-        h1{
-            font-size: 3rem;
+        h2{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            margin: 5em;
+            margin-top: 12em;
+            justify-content: center;
+            font-size: 2rem;
         }
        
     }
     .primeraSeccionNosotros{
         width: 80%;
-        height: 90vh;
+        height: auto;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -29,27 +35,16 @@
 
         .cardNosotros{
             width: 100%;
+            margin-top: 5em;
+            margin-bottom: 5em;
+
             
-            
-            
-            .cardTexto{
-                width: 80%;
-                background-image: url(../imagenes/IndexNosotros.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                color: rgba(250, 235, 215, 0);
-               
-                &:hover {
-                    transition-duration: 1.5s;
-                    color: rgb(0, 0, 0);
-                    opacity: 0.5;
-                    overflow: auto;
-                    font-size: 1.1rem;
-                    
-                    
-                }
-                
+
+            p{
+                font-size: 0.8rem;
             }
+            
+            
 
         }
         
@@ -58,24 +53,138 @@
     .segundaNosotros{
         width: 100%;
         height: 60vh;
-        background-image: url(../imagenes/TEXTURAS_Mesa\ de\ trabajo\ 1.png);
-        background-color: rgba(0, 0, 0, 0.61);
+        display: flex;
+        flex-direction: row;
+        background-image: url(../imagenes/nosotrosSeg.jpg);
         background-size: cover;
         background-repeat: no-repeat;
 
-        .textoNosotros{
-            margin: auto;
-            width: 70%;
-            height: 80%;
-            color: white;
+        .imgNosSegconteiner{
             display: flex;
-            justify-content: space-around;
+            flex-direction: row;
+            margin: auto;
+
+            width: 50%;
+            .imgNosSeg{
+                width: 80%;
+                height: auto;
+                margin: auto;
+                display: flex;
+                justify-content: end;
+    
+                img{
+                    width:70%;
+                    height: auto;
+                    
+                }
+            }
+    
+            .textoNosotros{
+                width: 80%;
+                color: white;
+                display: flex;
+                margin: auto;
+                justify-content: space-around;
+                
+                h3{
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        
+    }
+
+    .terceraNosotros{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        flex-direction: row;
+        background-image: url(../imagenes/terNos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .textoTerNos{
+            width: 35%;
+            display: flex;
             flex-direction: column;
-            h2{
-                font-size: 1rem;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                margin-bottom: 2rem;
+            }
+            h3{
+                font-size: 0.8rem;
+                text-decoration: none;
+                text-align: center;
             }
         }
     }
+
+
+    .cuartaNosotros{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        flex-direction: row;
+        background-image: url(../imagenes/cuarNos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .textoCuarNos{
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                margin-bottom: 2rem;
+                color: white;
+            }
+            h3{
+                font-size: 0.8rem;
+                text-decoration: none;
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+
+    .quintaNosotros{
+        width: 100%;
+        height: 45vh;
+        display: flex;
+        flex-direction: row;
+        background-image: url(../imagenes/terNos.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .textoQuinNos{
+            width: 35%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+
+            h1{
+                margin-bottom: 2rem;
+                
+            }
+            h3{
+                font-size: 0.8rem;
+                text-decoration: none;
+               
+                text-align: center;
+            }
+        }
+    }
+
+    
 
         
 }

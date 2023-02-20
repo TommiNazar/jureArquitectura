@@ -1,10 +1,31 @@
-*{
+@font-face {
+    font-family: "aileron";
+    src: url("../fuente/aileron_0102");
+}
+
+
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
 
+    font-family: "aileron", sans-serif;
     
     
+    
+}
+
+.hoverSub{
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.hoverGrande{
+    &:hover {
+        font-size: 3rem;
+    }
 }
 
 
@@ -15,11 +36,9 @@ footer{
 
     .footerContein{
         height: 50vh;
+
+        background-color: black;
         
-        background-image: url(/imagenes/TEXTURAS_Mesa\ de\ trabajo\ 1.png);
-        background-color: rgba(0, 0, 0, 0.61);
-        background-repeat:no-repeat ;
-        background-size:cover;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -46,10 +65,14 @@ footer{
                 text-decoration: none;
                 margin: 1rem;
                 padding: 0.8rem;
-                border-left: solid #006478 0.6rem ;
+                border-left: solid #3A5D8B 0.6rem ;
                 a{
                     color: white;
                     text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
                 
                 
@@ -66,12 +89,17 @@ footer{
                 
                 
                 h3{
-                    margin-top: 0.5rem;
-                    font-size: 1.2rem;
+                    
+                    font-size: 1rem;
+                    img{
+                        margin: 0;
+                        width: 11%;
+                        height: auto;
+                    }
                 }
 
                 img{
-                    width: 10%;
+                    width: 8%;
                 height: auto;
                 }
             }

@@ -6,7 +6,7 @@
     "node-sass": "^8.0.0",
     "nodemon": "^2.0.20"
   },
-  "name": "pagina",
+  "name": "sass",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -14,5 +14,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TommiNazar/jureArquitectura.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TommiNazar/jureArquitectura/issues"
+  },
+  "homepage": "https://github.com/TommiNazar/jureArquitectura#readme",
   "description": ""
 }
