@@ -7,69 +7,33 @@
   /*----------------cuarta seccion------------------------*/
 }
 .paginaConteiner .primeraSeccion {
-  background-image: url(../imagenes/B2.jpg);
+  background-image: url(../imagenes/texturaIndex.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
 }
 .paginaConteiner .primeraSeccion .presentacionIndex {
   color: white;
   display: flex;
-  flex-direction: column;
-  margin: 1em;
-  margin-top: 12em;
+  align-items: center;
   justify-content: center;
 }
-.paginaConteiner .primeraSeccion .presentacionIndex h1 {
-  font-size: 2rem;
-}
-.paginaConteiner .primeraSeccion button {
-  margin: 2em;
-  display: flex;
-  justify-content: start;
-}
-.paginaConteiner .segundaSeccionIndex {
-  width: 70vw;
-  height: 60vh;
-  display: flex;
-  flex-direction: row;
-  padding: 5%;
-  margin: auto;
-}
-.paginaConteiner .segundaSeccionIndex .textoSegundaSec {
-  margin: 0;
-  margin-right: 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 10%;
-}
-.paginaConteiner .segundaSeccionIndex .textoSegundaSec .tituloSeg {
-  display: flex;
-  justify-content: start;
-}
-.paginaConteiner .segundaSeccionIndex .textoSegundaSec .textoSeg {
-  font-size: 0.8rem;
-  text-decoration: none;
-}
-.paginaConteiner .segundaSeccionIndex .imgSegundaSec {
-  width: 100vw;
+.paginaConteiner .primeraSeccion .presentacionIndex img {
+  width: 25%;
   height: auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
-.paginaConteiner .segundaSeccionIndex .imgSegundaSec img {
-  width: 100%;
-  height: 100%;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0.5rem;
+.paginaConteiner .primeraSeccion button {
+  margin: 2rem;
+  display: flex;
+  justify-content: start;
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex {
   width: 95vw;
@@ -168,24 +132,11 @@
   font-size: 1.3rem;
 }
 .paginaConteiner .cuartaSeccionIndex {
-  width: 80%;
+  width: 50%;
   height: auto;
-  display: flex;
-  flex-direction: row;
-  padding: 5%;
   margin: auto;
-}
-.paginaConteiner .cuartaSeccionIndex .carousel1 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-}
-.paginaConteiner .cuartaSeccionIndex .carousel1 h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1rem;
-  padding: 10%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 @font-face {
@@ -211,15 +162,16 @@ footer {
   height: 40vh;
 }
 footer .footerContein {
-  height: 50vh;
+  height: 40vh;
   background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 footer .footerContein .logoFooter {
-  margin: 2rem;
-  width: 50%;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  width: 45%;
 }
 footer .footerContein .logoFooter img {
   width: 40%;
@@ -252,6 +204,7 @@ footer .footerContein .footer .footerRedes {
   margin-left: 1rem;
 }
 footer .footerContein .footer .footerRedes h3 {
+  margin: 0;
   font-size: 1rem;
 }
 footer .footerContein .footer .footerRedes h3 img {
@@ -268,30 +221,17 @@ footer .footerContein .footer .footerRedes img {
   width: 100%;
   height: auto;
   /*-----------------primera seccion contruccion-------------*/
+  /*-----------------segunda seccion contruccion-------------*/
   /*-----------------tercera seccion contruccion-------------*/
   /*-------------------cuarta seccion ---------------*/
   /*---------------------------QUINTA SECCION-----------------------------*/
 }
 .construccionConteiner .primeraConstruccion {
-  background-image: url(../imagenes/contriccion1.jpg);
+  background-image: url(../imagenes/construccion.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  /*-----------------segunda seccion contruccion-------------*/
-}
-.construccionConteiner .primeraConstruccion h2 {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  margin: 5em;
-  margin-top: 12em;
-  justify-content: center;
-  font-size: 2rem;
+  height: 65vh;
 }
 .construccionConteiner .contruccion1 {
   width: 100%;
@@ -314,7 +254,7 @@ footer .footerContein .footer .footerRedes img {
   margin-bottom: 2rem;
 }
 .construccionConteiner .contruccion1 .textoontruc1 h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: none;
   text-align: center;
 }
@@ -341,7 +281,7 @@ footer .footerContein .footer .footerRedes img {
 }
 .construccionConteiner .contruccion2 .textoontruc2 h3 {
   color: white;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: none;
   text-align: center;
 }
@@ -366,28 +306,8 @@ footer .footerContein .footer .footerRedes img {
   margin-bottom: 2rem;
 }
 .construccionConteiner .construccion3 .textoConstruccion3 h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: none;
-  text-align: center;
-}
-.construccionConteiner .construccion4 {
-  width: 100%;
-  height: 45vh;
-  display: flex;
-  flex-direction: row;
-  background-image: url(../imagenes/Contruccion2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.construccionConteiner .construccion4 .textoConstruccion5 {
-  width: 75%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: auto;
-}
-.construccionConteiner .construccion4 .textoConstruccion5 h2 {
-  color: white;
   text-align: center;
 }
 
@@ -407,29 +327,10 @@ footer .footerContein .footer .footerRedes img {
   width: 100%;
   height: auto;
 }
-.nosotrosConteiner .nosotrosConstruccion {
-  background-image: url(../imagenes/B2.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-}
-.nosotrosConteiner .nosotrosConstruccion h2 {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  margin: 5em;
-  margin-top: 12em;
-  justify-content: center;
-  font-size: 2rem;
-}
 .nosotrosConteiner .primeraSeccionNosotros {
   width: 80%;
   height: auto;
+  background-image: url(../imagenes/texturaIndex.png);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -438,7 +339,7 @@ footer .footerContein .footer .footerRedes img {
 }
 .nosotrosConteiner .primeraSeccionNosotros .cardNosotros {
   width: 100%;
-  margin-top: 5em;
+  margin-top: 7em;
   margin-bottom: 5em;
 }
 .nosotrosConteiner .primeraSeccionNosotros .cardNosotros p {
@@ -446,10 +347,10 @@ footer .footerContein .footer .footerRedes img {
 }
 .nosotrosConteiner .segundaNosotros {
   width: 100%;
-  height: 60vh;
+  height: 45vh;
   display: flex;
   flex-direction: row;
-  background-image: url(../imagenes/nosotrosSeg.jpg);
+  background-image: url(../imagenes/nosotros2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -478,7 +379,7 @@ footer .footerContein .footer .footerRedes img {
   justify-content: space-around;
 }
 .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .textoNosotros h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .nosotrosConteiner .terceraNosotros {
   width: 100%;
@@ -501,7 +402,7 @@ footer .footerContein .footer .footerRedes img {
   margin-bottom: 2rem;
 }
 .nosotrosConteiner .terceraNosotros .textoTerNos h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: none;
   text-align: center;
 }
@@ -527,7 +428,7 @@ footer .footerContein .footer .footerRedes img {
   color: white;
 }
 .nosotrosConteiner .cuartaNosotros .textoCuarNos h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: none;
   color: white;
   text-align: center;
@@ -553,7 +454,7 @@ footer .footerContein .footer .footerRedes img {
   margin-bottom: 2rem;
 }
 .nosotrosConteiner .quintaNosotros .textoQuinNos h3 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-decoration: none;
   text-align: center;
 }

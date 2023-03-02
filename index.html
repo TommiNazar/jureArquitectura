@@ -15,10 +15,10 @@
 
 <body >
   <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-2 mx-auto ">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-black p-md-2 mx-auto ">
       <div class="container d-flex justify-content-start align-items-center w-75 p3">
         <div class="logo w-25 p3 d-flex ">
-          <a href="index.html  " class=" d-flex justify-content-start"><img class="img-fluid w-50   " 
+          <a href="index.html  " class=" d-flex justify-content-start"><img class="img-fluid w-25   " 
               src="imagenes/logoNav1.png" alt=""></a>
         </div>
   
@@ -49,12 +49,7 @@
             </li>
           </ul>
         </div>
-        <div class="collapse navbar-collapse d-flex justify-content-end w-25 p3" id="navbarNav">
-          <div class="mx-auto w-50 p3 "></div>
-          <a class=" text-white d-flex justify-content-end p-1 w-75" href="#"><img src="imagenes/facebook1.png" class="w-25 p3"
-              alt=""></a>
-          <a class="nav-link text-white p-1 w-75" href="#"><img src="imagenes/instagram1.png" class="w-25" alt=""></a>
-        </div>
+       
         </div>
       </div>
   
@@ -70,35 +65,15 @@
     <!--------------primera seccion----------------->
     <div class="primeraSeccion">
       <div class="presentacionIndex">
-        <h1 class="text-w"><strong>Te garantizamos seguridad</strong>  <br></h1>
-        <h2 class="mx-auto"><strong>y garantia</strong> </h2>
+        <img src="./imagenes/logoIndex.png" alt="">
         
       </div>
-      <button type="button" class="btn btn-outline-light">Pedi presupuesto</button>
+      <button type="button" class="btn btn-outline-dark">Pedir Presupuesto</button>
     </div>
 
 
     <!--------------------segunda seccion----------------------------->
-    <div class="segundaSeccionIndex">
-      <div class="textoSegundaSec">
-        <h3 class="textoSeg">
-          Somos una empresa dedicada al crecimiento sustentable desarrollando proyectos orientados a la
-          innovación, excelencia y profesionalismo<br><br> Garantes de hacer realidad los sueños de las personas
-          <br><br>Te acompañamos en todo momento, desde  el anteproyecto, hasta la comercialización y posterior
-          atención postventa.
-        </h3>
-      </div>
-
-      <div class="imgSegundaSec">
-        <div>
-          <img src="imagenes/imgIndexSeg1.jpg" alt="">
-        </div>
-        <div>
-          <img src="imagenes/imgIndexSeg2.jpg" alt="">
-        </div>
-      </div>
-    </div>
-
+    
     <!--------------tercera seccion------------------------>
     <div class="terceraSeccionIndex">
 
@@ -120,40 +95,34 @@
 
     </div>
     <!--------------cuarta seccion----------------->
-    <div class="cuartaSeccionIndex">  
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="cuartaSeccionIndex"> 
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="carousel1">
-              <img src="imagenes/IndexContac.jpg" class="d-block w-25" alt="...">
-              <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt consequuntur architecto neque modi suscipit facere dicta et, fugit iste veniam molestiae illum. Sunt saepe eos animi aliquam consequuntur repellat.</h2>
-            </div>
-            
+            <img src="./imagenes/indexsec2.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <div class="carousel1">
-              <img src="imagenes/indexObras.jpg" class="d-block w-25" alt="...">
-              <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae distinctio similique quos nam illum unde sequi esse, aliquam aperiam magnam tempora magni laboriosam. Incidunt voluptatibus esse recusandae quasi expedita temporibus!</h2>
-            </div>
-            
+            <img src="./imagenes/indexObras.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <div class="carousel1">
-              <img src="imagenes/IndexNosotros.jpg" class="d-block w-25" alt="...">
-              <h2>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero quidem doloribus id quibusdam, eveniet commodi facilis reprehenderit suscipit nihil voluptatum totam maiores quas tempore nulla vel sed accusantium neque?</h2>
-            </div>
-            
+            <img src="./imagenes/IndexContac.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev  opacity-25 " type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next  opacity-25 bg-dark" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>   
+      </div>
 
     </div>
 
@@ -161,7 +130,7 @@
   <footer>
     <div class="footerContein">
       <div class="logoFooter">
-        <a href="index.html "><img src="imagenes/logoblanco.png" alt=""></a>
+        <a href="index.html "><img src="imagenes/logoFooter.png" alt=""></a>
       </div>
       <div class="footer">
         <div class="footerLInks">
@@ -172,11 +141,8 @@
           <a href="./paginas/contacto.html">contacto</a> 
         </div>
         <div class="footerRedes ">
-          <h3><img src="./imagenes/whatup1.png" class="m-0" alt="">351 594 2866</h3>
-          <div>
-            <img src="imagenes/facebook1.png" alt="">
-            <img src="imagenes/instagram1.png" alt="">
-          </div>
+          <h3><img src="./imagenes/whatup1.png" class="m-0" alt="">351 637 8466</h3>
+          <h3><img src="./imagenes/whatup1.png" class="m-0" alt="">351 370 1245</h3>
         </div>
       </div>
 
@@ -192,17 +158,7 @@
   
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript">
-    var nav = document.querySelector('nav');
-
-    window.addEventListener('scroll', function () {
-      if (window.pageYOffset > 100) {
-        nav.classList.add('bg-black', 'shadow');
-      } else {
-        nav.classList.remove('bg-black', 'shadow');
-      }
-    });
-  </script>
+ 
 </body>
 
 </html>

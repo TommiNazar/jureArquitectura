@@ -35,7 +35,7 @@ footer{
         
 
     .footerContein{
-        height: 50vh;
+        height: 40vh;
 
         background-color: black;
         
@@ -45,12 +45,15 @@ footer{
         
     
         .logoFooter{
-            margin: 2rem;
-            width: 50%;
+            margin-top: 1rem;
+            margin-left:5rem;
+            width: 45%;
+            
 
             img{
                 width: 40%;
                 height: auto;
+               
             }
         }
 
@@ -89,7 +92,8 @@ footer{
                 
                 
                 h3{
-                    
+                    margin: 0;
+
                     font-size: 1rem;
                     img{
                         margin: 0;
