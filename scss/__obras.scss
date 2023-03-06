@@ -1,17 +1,77 @@
 .obrasConteiner{
     width: 100%;
     height: auto;
-
-
-    .obrasConstruccion{
-        width: 100%;
-        height: 100vh;
-        background-image: url(../imagenes/B2.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-       
+    background-image: url(../imagenes/texturaIndex.png);
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    h1{
+        margin-top: 8rem;
+        margin-bottom: 2rem;
     }
+
+
+    .obras1{
+        width: 100%;
+        height: auto;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+
+        h2{
+            font-size: 1.3rem;
+           
+        }
+        h3{
+            font-size: 1rem;
+            text-decoration: none;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .caruselObras1{
+            margin-top: 2rem;
+            margin-bottom: 4rem;
+            width: 45%;
+            height: auto;
+            margin: auto;
+        }
+    }
+    
+    .obras2{
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+
+        h2{
+            margin-top: 2rem;
+            font-size: 1.3rem;
+        }
+        h3{
+            font-size: 1rem;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .caruselObras2{
+           width: 50%;
+        height: auto;      
+        margin: auto;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        }
+    }
+
+    
     
         
 }
