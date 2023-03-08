@@ -10,9 +10,32 @@
     text-decoration: none;
 
     font-family: "aileron", sans-serif;
+    z-index: 1;
     
     
     
+}
+
+.what{
+    bottom: 1%;
+    right: 1%;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+    a{
+    
+    width: 5rem;
+    height: auto;
+        img{
+      
+            width: 5rem;
+            height: auto;
+        }   
+    }
+
 }
 
 .hoverSub{

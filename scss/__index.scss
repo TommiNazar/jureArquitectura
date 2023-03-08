@@ -2,8 +2,12 @@
 
 
 .paginaConteiner{
+
+    
     width: 100%;
     height: auto;
+
+    
     /*------------------------------------primera seccion-------*/
 
     .primeraSeccion{
@@ -38,11 +42,15 @@
             }
             
         }
-        button{
-            margin: 2rem;
-            display: flex;
-            justify-content: start;
+        a{
+            text-decoration: none;
+            button{
+                margin: 2rem;
+                display: flex;
+                justify-content: start;
+            }
         }
+        
     }
 
     /*------------------------------------segunda seccion-------*/

@@ -1,7 +1,11 @@
 .obrasConteiner{
+    
+
+    
     width: 100%;
     height: auto;
-    background-image: url(../imagenes/texturaIndex.png);
+    background-image: url(../imagenes/texturaBlanca.png);
+    background-repeat: no-repeat;
     display: flex;
         justify-content: center;
         align-items: center;
@@ -33,7 +37,7 @@
             margin-bottom: 2rem;
         }
 
-        .caruselObras1{
+        .carusel{
             margin-top: 2rem;
             margin-bottom: 4rem;
             width: 45%;
@@ -62,8 +66,8 @@
             text-align: center;
         }
 
-        .caruselObras2{
-           width: 50%;
+        .carusel2{
+           width: 45%;
         height: auto;      
         margin: auto;
         margin-top: 4rem;

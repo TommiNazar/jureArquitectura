@@ -62,36 +62,44 @@
 
 
     <div class="contactoConteiner">
-        <h1>Contanos lo que queres hacer</h1>
 
         <div class="what">
-            <a href="https://api.whatsapp.com/send?phone= +54 11 3513 70-1245" class="btn-wsa" target="blank"><img src="../imagenes/whatup2.png" alt=""></a>
+            <a href="https://api.whatsapp.com/send?phone=3513701245" class="btn-wsa" target="blank"><img src="../imagenes/whatup2.png" alt=""></a>
         </div>
+
+        <h1>Contanos lo que queres hacer</h1>
+
         
-        <div class="formulario">
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">nombre</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">telefono</label>
-                <input type="" class="form-control" id="exampleFormControlInput1" placeholder="">
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">mensaje</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-              </div>
-              <div class="contactoEnviar">
-                <button type="submit" class="btn btn-outline-dark">enviar</button>
 
-              </div>
-
-             
-        </div>
+        <form action="https://formsubmit.co/tomminazar@gmail.com" method="POST" >
+            <div class="formulario" >
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">nombre</label>
+                    <input type="" class="form-control" id="exampleFormControlInput1" placeholder="" name="nombre">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="" name="email">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">telefono</label>
+                    <input type="" class="form-control" id="exampleFormControlInput1" placeholder="" name="telefono">
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"></textarea>
+                  </div>
+                  <div class="contactoEnviar">
+                    <a href=""><button  type="submit" class="btn btn-outline-dark">enviar</button></a>
+                    
+    
+                  </div>
+    
+                 
+            </div>  
+        </form>
+       
+        
         
 
 
@@ -123,7 +131,7 @@
 
 
 
-    <!--bootstrap scrip-->
+    <!-------------------bootstrap scrip-------------------->
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
