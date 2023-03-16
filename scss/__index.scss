@@ -1,11 +1,12 @@
 
 
-
 .paginaConteiner{
 
     
     width: 100%;
     height: auto;
+
+    
 
     
     /*------------------------------------primera seccion-------*/
@@ -21,6 +22,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
+        
         
 
 
@@ -61,24 +64,59 @@
     .terceraSeccionIndex{
         .galeriaConteinerIndex{
             
-            width: 95vw;
+            width: 100%;
             height: 70vh;
             display: flex;
             flex-direction: row;
             text-decoration: none;
             margin: auto;
             
+            @media screen and (min-width: 500px) and (max-width: 999px) {
+                width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+            
+            }
+
+            @media screen and (max-width: 499px) {
+                width: 100vw;
+                height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
             
             
 
             .imgNosotrosIndex{
-                width: 24vw;
+                width: 25vw;
                 height: auto;
                 background-image: url(/imagenes/indexnos.jpg);
                 display: flex;
                 flex-direction: column-reverse;
                 background-repeat: no-repeat;
                 background-size: cover;
+                
+                
+                @media screen and (min-width: 500px) and (max-width: 999px) {
+                width: 100%;
+                height: 25%;
+                background-image: url(/imagenes/nosotrosTablet.png);
+                
+
+                }
+                @media screen and (max-width: 499px) {
+                    width: 100%;
+                height: 25%;
+                background-image: url(/imagenes/celularNosInd.png);
+                
+                }
+                
                 a{
                     text-decoration: none;
                     h2{
@@ -87,6 +125,8 @@
                         margin: auto;
                         padding: 1.5rem;
                         font-size: 1rem;
+
+                       
 
                        
                             &:hover {
@@ -100,13 +140,27 @@
                 
             }
             .imgConstruccionIndex{
-                width: 24vw;
+                width: 25vw;
                 height: auto;
                 background-image: url(/imagenes/indexcont.jpg);
                 background-repeat: no-repeat;
         background-size: cover;
                 display: flex;
                 flex-direction: column-reverse;
+
+                @media screen and (min-width: 500px) and (max-width: 999px) {
+                    width: 100%;
+                    height: 25%;
+                    background-image: url(/imagenes/contruccionTablet.png);
+    
+                    }
+                @media screen and (max-width: 499px) {
+                    width: 100%;
+                    height: 25%;
+                    background-image: url(/imagenes/celularContrInd.png);
+                    
+                }
+
                 a{
                     text-decoration: none;
                     h2{
@@ -124,13 +178,26 @@
                 }
             }
             .imgObrasIndex{
-                width: 24vw;
+                width: 25vw;
                 height: auto;
                 background-image: url(/imagenes/indexobr.jpg);
                 background-repeat: no-repeat;
         background-size: cover;
                 display: flex;
                 flex-direction: column-reverse;
+
+                @media screen and (min-width: 500px) and (max-width: 999px) {
+                    width: 100%;
+                    height: 25%;
+                    background-image: url(/imagenes/obrasTablet.png);
+    
+                    }
+                    @media screen and (max-width: 499px) {
+                        width: 100%;
+                        height: 25%;
+                        background-image: url(/imagenes/celularObrasInd.png);
+                    }
+
                 a{
                     text-decoration: none;
                     h2{
@@ -148,13 +215,27 @@
                 }
             }
             .imgContactoIndex{
-                width: 24vw;
+                width: 25vw;
                 height: auto;
                 background-image: url(/imagenes/indexcontac.jpg);
                 background-repeat: no-repeat;
             background-size: cover;
                 display: flex;
                 flex-direction: column-reverse;
+
+                @media screen and (min-width: 500px) and (max-width: 999px) {
+                    width: 100%;
+                    height: 25%;
+                    background-image: url(/imagenes/contactoTablet.png);
+    
+                    }
+
+                    @media screen and (max-width: 499px) {
+                        width: 100%;
+                        height: 25%;
+                        background-image: url(/imagenes/celularContInd.png);
+                    }
+
                 a{
                     text-decoration: none;
                     h2{

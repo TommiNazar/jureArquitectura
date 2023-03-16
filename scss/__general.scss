@@ -24,11 +24,23 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
+
+    @media screen and (min-width: 451px) and (max-width: 991px) {
+        bottom: 20%;
+    right: 1%;
+    }
+    @media screen and (max-width: 500px)  {
+        bottom: 8%;
+        right: 5%;
+    }
+    
+    
     
     a{
     
     width: 5rem;
     height: auto;
+
         img{
       
             width: 5rem;
@@ -54,29 +66,63 @@
 
 footer{
 
-        height: 40vh;
+        height: auto;
         
 
     .footerContein{
-        height: 40vh;
+        width: 100%;
+        height: auto;
 
         background-color: black;
         
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+
+        @media screen and (max-width: 500px)  {
+            flex-direction: column;
+            padding: 1rem;
+            width: 100%;
+            
+            
+        }
         
     
         .logoFooter{
             margin-top: 1rem;
             margin-left:7rem;
-            width: 45%;
-            
+            width: 25%;
+
+            @media screen and (min-width: 500px) and (max-width: 999px) {
+                margin-top: 1rem;
+            margin-left:1rem;
+            width: 60%;
+            }
+
+            @media screen and (max-width: 499px)  {
+                display: none;
+                margin: 0;
+            }
+           
 
             img{
-                width: 40%;
+                width: 35%;
                 height: auto;
                
+            }
+
+            .mailFoo2{
+                display: none;
+
+                @media screen and (min-width: 500px) and (max-width: 999px) {
+                    display: flex;
+                    justify-content: start;
+                    align-items: flex-end;
+                    color: white;
+                    font-size: 1rem;
+                    margin-top: 2rem;
+                }
+
             }
         }
 
@@ -84,6 +130,12 @@ footer{
             width: 25%;
             display: flex;
             flex-direction: column;
+
+            @media screen and (max-width: 500px)  {
+                width: 100%;
+                justify-content: center;
+            align-items: center;
+            }
             
             .footerLInks{
                 display: flex;
@@ -107,17 +159,34 @@ footer{
             }
             .footerRedes{
                 
+                
                 display: flex;
                 flex-direction: column;
                 color: white;
+                justify-content: space-around;
                 
                 margin-left: 1rem;
+                @media screen and (max-width: 500px)  {
+                    
+                    
+                    justify-content: center;
+            align-items: center;
+                }
+               
+
                 
                 
                 h3{
-                    margin: 0;
+                    margin: 0.1rem;
 
                     font-size: 1rem;
+                    
+                    @media screen and (max-width: 500px)  {
+                    
+                    display: flex;
+                        justify-content: center;
+                align-items: center;
+                    }
                     img{
                         margin: 0;
                         width: 11%;
@@ -125,10 +194,19 @@ footer{
                     }
                 }
 
+                .mailFoo{
+
+                    @media screen and (min-width: 500px) and (max-width: 999px) {
+                        display: none;
+                    }
+
+                }
+
                 img{
                     width: 8%;
                 height: auto;
                 }
+            
             }
         }
     

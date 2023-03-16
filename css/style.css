@@ -39,21 +39,55 @@
   justify-content: start;
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex {
-  width: 95vw;
+  width: 100%;
   height: 70vh;
   display: flex;
   flex-direction: row;
   text-decoration: none;
   margin: auto;
 }
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 499px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgNosotrosIndex {
-  width: 24vw;
+  width: 25vw;
   height: auto;
   background-image: url(/imagenes/indexnos.jpg);
   display: flex;
   flex-direction: column-reverse;
   background-repeat: no-repeat;
   background-size: cover;
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgNosotrosIndex {
+    width: 100%;
+    height: 25%;
+    background-image: url(/imagenes/nosotrosTablet.png);
+  }
+}
+@media screen and (max-width: 499px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgNosotrosIndex {
+    width: 100%;
+    height: 25%;
+    background-image: url(/imagenes/celularNosInd.png);
+  }
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgNosotrosIndex a {
   text-decoration: none;
@@ -69,13 +103,27 @@
   font-size: 1.3rem;
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgConstruccionIndex {
-  width: 24vw;
+  width: 25vw;
   height: auto;
   background-image: url(/imagenes/indexcont.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column-reverse;
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgConstruccionIndex {
+    width: 100%;
+    height: 25%;
+    background-image: url(/imagenes/contruccionTablet.png);
+  }
+}
+@media screen and (max-width: 499px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgConstruccionIndex {
+    width: 100%;
+    height: 25%;
+    background-image: url(/imagenes/celularContrInd.png);
+  }
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgConstruccionIndex a {
   text-decoration: none;
@@ -91,13 +139,27 @@
   font-size: 1.3rem;
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgObrasIndex {
-  width: 24vw;
+  width: 25vw;
   height: auto;
   background-image: url(/imagenes/indexobr.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column-reverse;
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgObrasIndex {
+    width: 100%;
+    height: 25%;
+    background-image: url(/imagenes/obrasTablet.png);
+  }
+}
+@media screen and (max-width: 499px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgObrasIndex {
+    width: 100%;
+    height: 25%;
+    background-image: url(/imagenes/celularObrasInd.png);
+  }
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgObrasIndex a {
   text-decoration: none;
@@ -113,13 +175,27 @@
   font-size: 1.3rem;
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgContactoIndex {
-  width: 24vw;
+  width: 25vw;
   height: auto;
   background-image: url(/imagenes/indexcontac.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column-reverse;
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgContactoIndex {
+    width: 100%;
+    height: 25%;
+    background-image: url(/imagenes/contactoTablet.png);
+  }
+}
+@media screen and (max-width: 499px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgContactoIndex {
+    width: 100%;
+    height: 25%;
+    background-image: url(/imagenes/celularContInd.png);
+  }
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgContactoIndex a {
   text-decoration: none;
@@ -163,6 +239,18 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
+@media screen and (min-width: 451px) and (max-width: 991px) {
+  .what {
+    bottom: 20%;
+    right: 1%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .what {
+    bottom: 8%;
+    right: 5%;
+  }
+}
 .what a {
   width: 5rem;
   height: auto;
@@ -181,28 +269,69 @@
 }
 
 footer {
-  height: 40vh;
+  height: auto;
 }
 footer .footerContein {
-  height: 40vh;
+  width: 100%;
+  height: auto;
   background-color: black;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+@media screen and (max-width: 500px) {
+  footer .footerContein {
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+  }
+}
 footer .footerContein .logoFooter {
   margin-top: 1rem;
   margin-left: 7rem;
-  width: 45%;
+  width: 25%;
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  footer .footerContein .logoFooter {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 60%;
+  }
+}
+@media screen and (max-width: 499px) {
+  footer .footerContein .logoFooter {
+    display: none;
+    margin: 0;
+  }
 }
 footer .footerContein .logoFooter img {
-  width: 40%;
+  width: 35%;
   height: auto;
+}
+footer .footerContein .logoFooter .mailFoo2 {
+  display: none;
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  footer .footerContein .logoFooter .mailFoo2 {
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    color: white;
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
 }
 footer .footerContein .footer {
   width: 25%;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 500px) {
+  footer .footerContein .footer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 }
 footer .footerContein .footer .footerLInks {
   display: flex;
@@ -223,16 +352,35 @@ footer .footerContein .footer .footerRedes {
   display: flex;
   flex-direction: column;
   color: white;
+  justify-content: space-around;
   margin-left: 1rem;
 }
+@media screen and (max-width: 500px) {
+  footer .footerContein .footer .footerRedes {
+    justify-content: center;
+    align-items: center;
+  }
+}
 footer .footerContein .footer .footerRedes h3 {
-  margin: 0;
+  margin: 0.1rem;
   font-size: 1rem;
+}
+@media screen and (max-width: 500px) {
+  footer .footerContein .footer .footerRedes h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 footer .footerContein .footer .footerRedes h3 img {
   margin: 0;
   width: 11%;
   height: auto;
+}
+@media screen and (min-width: 500px) and (max-width: 999px) {
+  footer .footerContein .footer .footerRedes .mailFoo {
+    display: none;
+  }
 }
 footer .footerContein .footer .footerRedes img {
   width: 8%;
@@ -336,7 +484,7 @@ footer .footerContein .footer .footerRedes img {
 .contactoConteiner {
   width: 100%;
   height: auto;
-  background-image: url(../imagenes/texturaBlanca.png);
+  background-image: url(../imagenes/texturaIndex.png);
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -371,7 +519,7 @@ footer .footerContein .footer .footerRedes img {
 .nosotrosConteiner .primeraSeccionNosotros {
   width: 80%;
   height: auto;
-  background-image: url(../imagenes/texturaBlanca.png);
+  background-image: url(../imagenes/texturaIndex.png);
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -503,7 +651,7 @@ footer .footerContein .footer .footerRedes img {
 .obrasConteiner {
   width: 100%;
   height: auto;
-  background-image: url(../imagenes/texturaBlanca.png);
+  background-image: url(../imagenes/texturaIndex.png);
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
