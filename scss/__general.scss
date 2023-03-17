@@ -64,6 +64,8 @@
 }
 
 
+
+
 footer{
 
         height: auto;
@@ -79,7 +81,7 @@ footer{
         flex-direction: row;
         justify-content: space-between;
 
-        @media screen and (max-width: 500px)  {
+        @media screen and (max-width: 600px)  {
             flex-direction: column;
             padding: 1rem;
             width: 100%;
@@ -93,13 +95,13 @@ footer{
             margin-left:7rem;
             width: 25%;
 
-            @media screen and (min-width: 500px) and (max-width: 999px) {
+            @media screen and (min-width: 599px) and (max-width: 999px) {
                 margin-top: 1rem;
             margin-left:1rem;
             width: 60%;
             }
 
-            @media screen and (max-width: 499px)  {
+            @media screen and (max-width: 599px)  {
                 display: none;
                 margin: 0;
             }
@@ -114,7 +116,7 @@ footer{
             .mailFoo2{
                 display: none;
 
-                @media screen and (min-width: 500px) and (max-width: 999px) {
+                @media screen and (min-width: 600px) and (max-width: 999px) {
                     display: flex;
                     justify-content: start;
                     align-items: flex-end;
@@ -131,7 +133,7 @@ footer{
             display: flex;
             flex-direction: column;
 
-            @media screen and (max-width: 500px)  {
+            @media screen and (max-width: 600px)  {
                 width: 100%;
                 justify-content: center;
             align-items: center;
@@ -166,7 +168,7 @@ footer{
                 justify-content: space-around;
                 
                 margin-left: 1rem;
-                @media screen and (max-width: 500px)  {
+                @media screen and (max-width: 600px)  {
                     
                     
                     justify-content: center;
@@ -181,7 +183,7 @@ footer{
 
                     font-size: 1rem;
                     
-                    @media screen and (max-width: 500px)  {
+                    @media screen and (max-width: 600px)  {
                     
                     display: flex;
                         justify-content: center;
@@ -191,12 +193,16 @@ footer{
                         margin: 0;
                         width: 11%;
                         height: auto;
+
+                        @media screen and (min-width: 600px) and (max-width: 999px) {
+                            width: 20%;
+                        }
                     }
                 }
 
                 .mailFoo{
 
-                    @media screen and (min-width: 500px) and (max-width: 999px) {
+                    @media screen and (min-width: 600px) and (max-width: 999px) {
                         display: none;
                     }
 
