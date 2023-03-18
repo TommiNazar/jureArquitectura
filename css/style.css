@@ -99,6 +99,11 @@
   padding: 1.5rem;
   font-size: 1rem;
 }
+@media screen and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgNosotrosIndex a h2 {
+    color: black;
+  }
+}
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgNosotrosIndex a h2:hover {
   font-size: 1.3rem;
 }
@@ -134,6 +139,11 @@
   margin: auto;
   padding: 1.5rem;
   font-size: 1rem;
+}
+@media screen and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgConstruccionIndex a h2 {
+    color: black;
+  }
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgConstruccionIndex a h2:hover {
   font-size: 1.3rem;
@@ -171,6 +181,11 @@
   padding: 1.5rem;
   font-size: 1rem;
 }
+@media screen and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgObrasIndex a h2 {
+    color: black;
+  }
+}
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgObrasIndex a h2:hover {
   font-size: 1.3rem;
 }
@@ -206,6 +221,11 @@
   margin: auto;
   padding: 1.5rem;
   font-size: 1rem;
+}
+@media screen and (max-width: 999px) {
+  .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgContactoIndex a h2 {
+    color: black;
+  }
 }
 .paginaConteiner .terceraSeccionIndex .galeriaConteinerIndex .imgContactoIndex a h2:hover {
   font-size: 1.3rem;
@@ -592,13 +612,22 @@ footer .footerContein .footer .footerRedes img {
   align-items: center;
   margin: auto;
 }
-@media screen and (min-width: 600px) and (max-width: 999px) {
+@media screen and (max-width: 900px) {
   .nosotrosConteiner .primeraSeccionNosotros {
+    width: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    width: 50%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .nosotrosConteiner .primeraSeccionNosotros {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
   }
 }
 .nosotrosConteiner .primeraSeccionNosotros .cardNosotros {
@@ -608,6 +637,16 @@ footer .footerContein .footer .footerRedes img {
 }
 @media screen and (min-width: 600px) and (max-width: 999px) {
   .nosotrosConteiner .primeraSeccionNosotros .cardNosotros {
+    width: 80%;
+    justify-content: center;
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width: 599px) {
+  .nosotrosConteiner .primeraSeccionNosotros .cardNosotros {
+    width: 50%;
     justify-content: center;
     margin: 1rem;
     margin-left: auto;
@@ -640,6 +679,14 @@ footer .footerContein .footer .footerRedes img {
     margin: 2rem;
   }
 }
+@media screen and (max-width: 599px) {
+  .nosotrosConteiner .segundaNosotros .imgNosSegconteiner {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+  }
+}
 .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .imgNosSeg {
   width: 80%;
   height: auto;
@@ -647,11 +694,16 @@ footer .footerContein .footer .footerRedes img {
   display: flex;
   justify-content: end;
 }
-@media screen and (min-width: 500px) and (max-width: 999px) {
+@media screen and (max-width: 999px) {
   .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .imgNosSeg {
     width: 30%;
     justify-content: flex-start;
     margin: 0;
+  }
+}
+@media screen and (max-width: 599px) {
+  .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .imgNosSeg {
+    display: none;
   }
 }
 .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .imgNosSeg img {
@@ -677,6 +729,16 @@ footer .footerContein .footer .footerRedes img {
     margin: 0;
   }
 }
+@media screen and (max-width: 599px) {
+  .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .textoNosotros {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .textoNosotros h3 {
   font-size: 1rem;
 }
@@ -684,6 +746,13 @@ footer .footerContein .footer .footerRedes img {
   .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .textoNosotros h3 {
     font-size: 1rem;
     width: 100%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .nosotrosConteiner .segundaNosotros .imgNosSegconteiner .textoNosotros h3 {
+    font-size: 1rem;
+    text-decoration: none;
+    text-align: center;
   }
 }
 .nosotrosConteiner .terceraNosotros {

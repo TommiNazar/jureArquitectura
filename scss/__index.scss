@@ -120,12 +120,15 @@
                 a{
                     text-decoration: none;
                     h2{
+                        
                         text-decoration: none;
                         color: white;
                         margin: auto;
                         padding: 1.5rem;
                         font-size: 1rem;
-
+                        @media screen and (max-width: 999px) {
+                            color: black;
+                         }
                        
 
                        
@@ -169,6 +172,9 @@
                         margin: auto;
                         padding: 1.5rem;
                         font-size: 1rem;
+                        @media screen and (max-width: 999px) {
+                            color: black;
+                         }
                         &:hover {
                             font-size: 1.3rem;
                         }
@@ -205,7 +211,10 @@
                         color: white;
                         margin: auto;
                         padding: 1.5rem;
-                        font-size: 1rem;  
+                        font-size: 1rem; 
+                        @media screen and (max-width: 999px) {
+                            color: black;
+                         } 
                         
                         &:hover {
                             font-size: 1.3rem;
@@ -244,6 +253,9 @@
                         margin: auto;
                         padding: 1.5rem;
                         font-size: 1rem;
+                        @media screen and (max-width: 999px) {
+                            color: black;
+                         }
                         &:hover {
                             font-size: 1.3rem;
                         }
