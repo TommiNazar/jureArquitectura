@@ -237,11 +237,44 @@
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
+@media screen and (max-width: 999px) {
+  .paginaConteiner .cuartaSeccionIndex {
+    width: 70%;
+  }
+}
 
 @font-face {
   font-family: "aileron";
   src: url("../fuente/aileron_0102");
 }
+.imagenNav {
+  width: 25%;
+}
+@media screen and (min-width: 800px) and (max-width: 999px) {
+  .imagenNav {
+    width: 30%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 799px) {
+  .imagenNav {
+    width: 40%;
+    height: auto;
+  }
+}
+@media screen and (min-width: 450px) and (max-width: 599px) {
+  .imagenNav {
+    width: 55%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 449px) {
+  .imagenNav {
+    width: 62%;
+    height: auto;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -309,12 +342,12 @@ footer .footerContein {
 footer .footerContein .logoFooter {
   margin-top: 1rem;
   margin-left: 7rem;
-  width: 25%;
+  width: 40%;
 }
 @media screen and (min-width: 599px) and (max-width: 999px) {
   footer .footerContein .logoFooter {
     margin-top: 1rem;
-    margin-left: 1rem;
+    margin-left: 5rem;
     width: 60%;
   }
 }
@@ -345,6 +378,11 @@ footer .footerContein .footer {
   width: 25%;
   display: flex;
   flex-direction: column;
+}
+@media screen and (min-width: 600px) and (max-width: 999px) {
+  footer .footerContein .footer {
+    margin-right: 4rem;
+  }
 }
 @media screen and (max-width: 600px) {
   footer .footerContein .footer {
@@ -611,6 +649,7 @@ footer .footerContein .footer .footerRedes img {
   justify-content: space-around;
   align-items: center;
   margin: auto;
+  margin-top: 3rem;
 }
 @media screen and (max-width: 900px) {
   .nosotrosConteiner .primeraSeccionNosotros {
@@ -618,28 +657,27 @@ footer .footerContein .footer .footerRedes img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 }
 @media screen and (max-width: 599px) {
   .nosotrosConteiner .primeraSeccionNosotros {
-    width: 100%;
+    width: 80%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
+    margin-top: 5rem;
   }
 }
 .nosotrosConteiner .primeraSeccionNosotros .cardNosotros {
   width: 100%;
-  margin-top: 7em;
-  margin-bottom: 5em;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 @media screen and (min-width: 600px) and (max-width: 999px) {
   .nosotrosConteiner .primeraSeccionNosotros .cardNosotros {
     width: 80%;
     justify-content: center;
-    margin: 1rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -648,7 +686,6 @@ footer .footerContein .footer .footerRedes img {
   .nosotrosConteiner .primeraSeccionNosotros .cardNosotros {
     width: 50%;
     justify-content: center;
-    margin: 1rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -901,6 +938,11 @@ footer .footerContein .footer .footerRedes img {
   height: auto;
   margin: auto;
 }
+@media screen and (max-width: 999px) {
+  .obrasConteiner .obras1 .carusel {
+    width: 70%;
+  }
+}
 .obrasConteiner .obras2 {
   width: 100%;
   height: auto;
@@ -925,6 +967,11 @@ footer .footerContein .footer .footerRedes img {
   margin: auto;
   margin-top: 4rem;
   margin-bottom: 4rem;
+}
+@media screen and (max-width: 999px) {
+  .obrasConteiner .obras2 .carusel2 {
+    width: 70%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

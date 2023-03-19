@@ -43,6 +43,10 @@
             width: 45%;
             height: auto;
             margin: auto;
+
+            @media screen and (max-width: 999px) {
+                width: 70%;
+            }
         }
     }
     
@@ -72,6 +76,10 @@
         margin: auto;
         margin-top: 4rem;
         margin-bottom: 4rem;
+
+        @media screen and (max-width: 999px) {
+            width: 70%;
+        }
         }
     }
 
