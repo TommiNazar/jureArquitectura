@@ -938,9 +938,14 @@ footer .footerContein .footer .footerRedes img {
   height: auto;
   margin: auto;
 }
-@media screen and (max-width: 999px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
   .obrasConteiner .obras1 .carusel {
     width: 70%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .obrasConteiner .obras1 .carusel {
+    width: 90%;
   }
 }
 .obrasConteiner .obras2 {
@@ -968,9 +973,14 @@ footer .footerContein .footer .footerRedes img {
   margin-top: 4rem;
   margin-bottom: 4rem;
 }
-@media screen and (max-width: 999px) {
+@media screen and (min-width: 600px) and (max-width: 999px) {
   .obrasConteiner .obras2 .carusel2 {
     width: 70%;
+  }
+}
+@media screen and (max-width: 599px) {
+  .obrasConteiner .obras2 .carusel2 {
+    width: 90%;
   }
 }
 

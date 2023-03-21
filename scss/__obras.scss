@@ -44,8 +44,11 @@
             height: auto;
             margin: auto;
 
-            @media screen and (max-width: 999px) {
+            @media screen and (min-width: 600px) and (max-width: 999px) {
                 width: 70%;
+            }
+            @media screen and (max-width: 599px) {
+                width: 90%;
             }
         }
     }
@@ -77,9 +80,14 @@
         margin-top: 4rem;
         margin-bottom: 4rem;
 
-        @media screen and (max-width: 999px) {
+        @media screen and (min-width: 600px) and (max-width: 999px) {
             width: 70%;
         }
+        @media screen and (max-width: 599px) {
+            width: 90%;
+        }
+
+
         }
     }
 
