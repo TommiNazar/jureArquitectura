@@ -42,6 +42,10 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @media screen and (max-width: 750px) {
+                    width: 50%;
+                }
             }
             
         }
@@ -96,7 +100,7 @@
             .imgNosotrosIndex{
                 width: 25vw;
                 height: auto;
-                background-image: url(/imagenes/indexnos.jpg);
+                background-image: url(/imagenes/CPUnosotros.jpg);
                 display: flex;
                 flex-direction: column-reverse;
                 background-repeat: no-repeat;
@@ -106,14 +110,14 @@
                 @media screen and (min-width: 500px) and (max-width: 999px) {
                 width: 100%;
                 height: 25%;
-                background-image: url(/imagenes/nosotrosTablet.png);
+                background-image: url(/imagenes/TABLETnosotros.jpg);
                 
 
                 }
                 @media screen and (max-width: 499px) {
                     width: 100%;
                 height: 25%;
-                background-image: url(/imagenes/celularNosInd.png);
+                background-image: url(/imagenes/CELULARnosotros.jpg);
                 
                 }
                 
@@ -145,7 +149,7 @@
             .imgConstruccionIndex{
                 width: 25vw;
                 height: auto;
-                background-image: url(/imagenes/indexcont.jpg);
+                background-image: url(/imagenes/CPUconstruccion.jpg);
                 background-repeat: no-repeat;
         background-size: cover;
                 display: flex;
@@ -154,13 +158,13 @@
                 @media screen and (min-width: 500px) and (max-width: 999px) {
                     width: 100%;
                     height: 25%;
-                    background-image: url(/imagenes/contruccionTablet.png);
+                    background-image: url(/imagenes/TABLETconstruccion.jpg);
     
                     }
                 @media screen and (max-width: 499px) {
                     width: 100%;
                     height: 25%;
-                    background-image: url(/imagenes/celularContrInd.png);
+                    background-image: url(/imagenes/CELULARconstruccion.jpg);
                     
                 }
 
@@ -186,7 +190,7 @@
             .imgObrasIndex{
                 width: 25vw;
                 height: auto;
-                background-image: url(/imagenes/indexobr.jpg);
+                background-image: url(/imagenes/CPUobras.jpg);
                 background-repeat: no-repeat;
         background-size: cover;
                 display: flex;
@@ -195,13 +199,13 @@
                 @media screen and (min-width: 500px) and (max-width: 999px) {
                     width: 100%;
                     height: 25%;
-                    background-image: url(/imagenes/obrasTablet.png);
+                    background-image: url(/imagenes/TABLETobras.jpg);
     
                     }
                     @media screen and (max-width: 499px) {
                         width: 100%;
                         height: 25%;
-                        background-image: url(/imagenes/celularObrasInd.png);
+                        background-image: url(/imagenes/CELULARobras.jpg);
                     }
 
                 a{
@@ -226,7 +230,7 @@
             .imgContactoIndex{
                 width: 25vw;
                 height: auto;
-                background-image: url(/imagenes/indexcontac.jpg);
+                background-image: url(/imagenes/CPUcontacto.jpg);
                 background-repeat: no-repeat;
             background-size: cover;
                 display: flex;
@@ -235,14 +239,14 @@
                 @media screen and (min-width: 500px) and (max-width: 999px) {
                     width: 100%;
                     height: 25%;
-                    background-image: url(/imagenes/contactoTablet.png);
+                    background-image: url(/imagenes/TABLETcontacto.jpg);
     
                     }
 
                     @media screen and (max-width: 499px) {
                         width: 100%;
                         height: 25%;
-                        background-image: url(/imagenes/celularContInd.png);
+                        background-image: url(/imagenes/CELULARcontacto.jpg);
                     }
 
                 a{
